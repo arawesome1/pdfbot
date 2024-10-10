@@ -13,6 +13,8 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 import os
 from dotenv import load_dotenv
 load_dotenv()
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 os.environ['hf_token']= os.getenv('hf_token')
 embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
 st.title("Conversational with PDF")
