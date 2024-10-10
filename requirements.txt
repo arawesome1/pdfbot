@@ -3,5 +3,5 @@ langchain     # Adjust based on your usage
 langchain_chroma
 langchain_community
 chromadb                # Remove version constraint
-protobuf==3.20.3       # Downgrade to fix the issue
+protobuf       # Downgrade to fix the issue
 python-dotenv
