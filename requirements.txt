@@ -6,4 +6,4 @@ langchain_huggingface
 python-dotenv
 langchain_groq
 langchain_core
-pypdf==3.0.1
+pypdf2==3.0.1
