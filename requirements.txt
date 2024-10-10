@@ -4,6 +4,6 @@ langchain_community
 faiss-cpu  # Use faiss-gpu if you have a compatible GPU
 langchain_huggingface
 python-dotenv
-PyPDF2
 langchain_groq
 langchain_core
+PyPDF2==3.0.1
