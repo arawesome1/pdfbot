@@ -1,9 +1,9 @@
-streamlit==1.25.0
-langchain==0.0.262
-langchain_community==0.0.17
+streamlit
+langchain
+langchain_community
 faiss-cpu  # Use faiss-gpu if you have a compatible GPU
 langchain_huggingface
-python-dotenv==1.0.0
-PyPDF2==3.0.1
+python-dotenv
+PyPDF2
 langchain_groq
 langchain_core
