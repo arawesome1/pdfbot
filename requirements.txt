@@ -1,4 +1,4 @@
-streamlit==1.23.0      # Adjust version as necessary
+streamlit     # Adjust version as necessary
 langchain==0.0.200     # Adjust based on your usage
 langchain-chroma
 chromadb                # Remove version constraint
