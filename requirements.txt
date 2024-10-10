@@ -1,11 +1,9 @@
 streamlit==1.24.0
 langchain==0.0.262
 langchain_community==0.0.17
-chromadb==0.3.25
-huggingface-hub==0.17.2
-transformers==4.33.3
+langchain_huggingface
 pandas==2.1.1
 python-dotenv==1.0.0
 PyPDF2==3.0.1
 protobuf==4.24.0
-
+langchain-faiss==0.0.5
