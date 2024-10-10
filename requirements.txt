@@ -1,10 +1,11 @@
 streamlit==1.23.0  # Ensure this is compatible with your app
 langchain>=0.2.16,<0.3.0  # Adjust to a compatible version
 langchain-community<0.3.0,>=0.2.6  # Ensure compatibility with langchain
-langchain-chroma  # No specific version, allows for latest
+langchain-chroma  # No specific version, allows for the latest
 chromadb>=0.4.22,<0.5.0  # Align with other dependencies
 pydantic>=2.6.1,<3.0.0  # Ensure compatible version
 protobuf>=4.21.6,<5.0.0  # Align with grpc requirements
 dataclasses-json>=0.6.4  # Ensure compatibility
-Pillow==9.3.0
-pip>=24.2
+Pillow==9.3.0  # Specified version to avoid issues
+pip>=24.2  # Ensure you have the latest pip
+
