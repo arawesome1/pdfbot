@@ -1,8 +1,6 @@
-streamlit==1.23.0
-langchain==0.0.200
+streamlit==1.23.0  # Adjust to your working version
+langchain==0.0.200  # Example version; adjust as needed
 langchain_chroma
-chromadb==0.3.21
-opentelemetry-api==1.14.0
-opentelemetry-sdk==1.14.0
-protobuf==3.20.3
+chromadb==0.3.21    # Adjust based on your use case
+protobuf==3.20.3    # Ensure compatibility
 python-dotenv
