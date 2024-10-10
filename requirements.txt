@@ -1,0 +1,9 @@
+streamlit==1.26.0  # Or latest version
+langchain  # Core LangChain package
+langchain-community  # Community package for PDF loaders and chat history
+langchain-huggingface  # HuggingFace embeddings package for LangChain
+langchain-chroma  # Chroma integration for LangChain
+langchain-groq  # Groq API integration for LangChain
+pypdf2==3.0.1  # PDF loader
+python-dotenv==1.0.0  # For loading environment variables
+chromadb==0.4.7  # Chroma vector storage
