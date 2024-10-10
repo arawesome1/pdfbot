@@ -1,8 +1,8 @@
-streamlit==1.21.0
-langchain==0.0.246
-langchain_community==0.0.246
-langchain_huggingface==0.0.246
-langchain_groq==0.0.246
-langchain_text_splitters==0.0.246
-langchain_core==0.0.246
-pypdf==3.0.1
+streamlit
+langchain
+langchain_community
+langchain_huggingface
+langchain_groq
+langchain_text_splitters
+langchain_core
+pypdf
