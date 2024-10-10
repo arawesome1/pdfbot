@@ -6,3 +6,4 @@ langchain_groq
 langchain_text_splitters
 langchain_core
 pypdf
+faiss-cpu
