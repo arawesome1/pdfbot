@@ -1,6 +1,7 @@
 streamlit     # Adjust version as necessary
-langchain==0.0.200     # Adjust based on your usage
-langchain-chroma
+langchain     # Adjust based on your usage
+langchain_chroma
+langchain_community
 chromadb                # Remove version constraint
 protobuf==3.20.3       # Downgrade to fix the issue
 python-dotenv
