@@ -1,11 +1,11 @@
-streamlit  # Ensure this is compatible with your app
-langchain  # Adjust to a compatible version
-langchain_community # Ensure compatibility with langchain
-langchain_chroma  # No specific version, allows for the latest
-chromadb# Align with other dependencies
-pydantic  # Ensure compatible version
-protobuf  # Align with grpc requirements
-dataclasses-json # Ensure compatibility
-Pillow  # Specified version to avoid issues
-pip  # Ensure you have the latest pip
+streamlit==1.24.0
+langchain==0.0.262
+langchain_community==0.0.17
+chromadb==0.3.25
+huggingface-hub==0.17.2
+transformers==4.33.3
+pandas==2.1.1
+python-dotenv==1.0.0
+PyPDF2==3.0.1
+protobuf==4.24.0
 
