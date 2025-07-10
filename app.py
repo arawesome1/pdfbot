@@ -16,7 +16,7 @@ load_dotenv()
 import os
 os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
 os.environ['hf_token']= os.getenv('hf_token')
-embeddings = HuggingFaceEmbeddings(model_name='granite-embedding-30m-sparse')
+embeddings = HuggingFaceEmbeddings(model_name='LaBSE-en-ru')
 st.title("Conversational with PDF")
 st.write("Upload your PDF and Chat with it")
 
